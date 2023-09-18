@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(shouldWakeUp(true, -1));
         System.out.println(hasTeen(22, 23, 34));
+        System.out.println(hasTeen(22, 13, 34));
         System.out.println(isCatPlaying(false, 35));
         Scanner scanner = new Scanner(System.in);
         try{
